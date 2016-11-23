@@ -1,0 +1,25 @@
+<ion-view hide-nav-bar="true" id="home" class="home-page">
+    <ion-tabs class="tabs-dark tabs-icon-left study" id="home-tab">
+        <ion-tab title="Shopping" icon="ion-ios-cart" href="#/Home-page/shopping-page" id="home-tab-shopping" class="shopping">
+            <ion-nav-view name="shopping-tab">
+                <button id="fab-shopping" class="button button-fab button-fab-bottom-right button-balanced-900" ng-click="modal.show()">
+                    <i class="icon ion-plus"></i>
+                </button>
+            </ion-nav-view>
+        </ion-tab>
+        <ion-tab title="Priority" icon="ion-alert" href="#/Home-page/priority-page" id="home-tab-priority" class="priority">
+            <ion-nav-view name="priority-tab">
+                <button id="fab-priority" class="button button-fab button-fab-bottom-right button-assertive-900" ng-click="modal.show()">
+                    <i class="icon ion-plus"></i>
+                </button>
+            </ion-nav-view>
+        </ion-tab>
+        <ion-tab title="Projects" icon="ion-android-apps" href="#/Home-page/projects-page" id="home-tab-projects" class="projects">
+            <ion-nav-view name="projects-tab">
+                <button id="fab-projects" class="button button-fab button-fab-bottom-right button-positive-900" ng-click="modal.show()">
+                    <i class="icon ion-plus"></i>
+                </button>
+            </ion-nav-view>
+        </ion-tab>
+    </ion-tabs>
+</ion-view>
